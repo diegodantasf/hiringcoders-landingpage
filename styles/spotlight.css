@@ -1,0 +1,15 @@
+#spotlight {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    background-color: rgba(255, 239, 97, 0.1);
+    padding: 2%;
+    margin: 10px;
+}
+
+#spotlight-item{
+    display: flex;
+    flex-flow: column wrap;
+    align-items: center;
+}

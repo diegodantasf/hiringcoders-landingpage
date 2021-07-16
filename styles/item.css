@@ -1,0 +1,7 @@
+.item {
+    display: flex;
+    flex-flow: column wrap;
+    align-items: center;
+    margin: 25px 100px;
+}
+
