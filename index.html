@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="theme-color" content="#000000" />
+    <meta
+      name="description"
+      content="Landing page for a Black Friday promotion"
+    />
+    <title>Black Friday</title>
+    <link rel="stylesheet" href="styles/page.css">
+    <link rel="stylesheet" href="styles/newsletter.css">
+    <link rel="stylesheet" href="styles/spotlight.css">
+    <link rel="stylesheet" href="styles/item.css">
+    <link rel="stylesheet" href="styles/more-items.css">
+    <link rel="stylesheet" href="styles/brand.css">
+  </head>
+  <body>
+    <div id="brand">
+      <!-- brand name & placeholder icon -->
+      <img src="./assets/pokemon_center_logo.svg">
+      <img src="./assets/blackfriday_logo.svg">
+      <img src="./assets/pokemon_logo.svg">
+    </div>
+    <div id="spotlight">
+      <!-- spotlight item & newsletter -->
+      <div id="spotlight-item">
+        <h1>Master balls on sale!</h1>
+        <div class="item">
+          <img src="https://placeholder.pics/svg/300/DEDEDE/555555/item">
+          <div description> Item could not be loaded :( </div>
+        </div>
+      </div>
+      <div id="newsletter">
+        <h1> Capture legendary pokemon now!</h1>
+        <img src="./assets/legendary_pokemon.svg">
+        <h1> Interested? Subscribe for more!</h1>
+        <form>
+          <label for="input-email"> Email: </label><br>
+          <input type="text" id="input-email"><br>
+          <input type="button" value="Submit">
+        </form>
+      </div>
+    </div>
+    <div id="more-items">
+      <!-- additionals ads -->
+    </div>
+    <template id="template-item">
+      <div class="item">
+        <img src="https://placeholder.pics/svg/300/DEDEDE/555555/item">
+        <div description> Amazing item </div>
+      </div>
+    </template>
+
+    <script type="module" src="src/index.js"></script>
+  </body>
+</html>
