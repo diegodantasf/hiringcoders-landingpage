@@ -36,15 +36,17 @@
         <h1> Capture legendary pokemon now!</h1>
         <img src="./assets/legendary_pokemon.svg">
         <h1> Interested? Subscribe for more!</h1>
-        <form>
+        <div form>
           <label for="input-email"> Email: </label><br>
-          <input type="text" id="input-email"><br>
+          <input type="text" id="input-email" placeholder="pokemon@mail.com"><br>
           <input type="button" value="Submit">
-        </form>
+        </div>
       </div>
     </div>
     <div id="more-items">
       <!-- additionals ads -->
+      <div style="font-size: x-large; text-align: center;">You might also be interested in...</div>
+      <div items></div>
     </div>
     <template id="template-item">
       <div class="item">
@@ -52,7 +54,10 @@
         <div description> Amazing item </div>
       </div>
     </template>
-
+    <footer style="text-align: center; margin-top: 10px;">
+      All rights reserved<br>
+      Made by <i>diegodantasf</i>
+    </footer>
     <script type="module" src="src/index.js"></script>
   </body>
 </html>
