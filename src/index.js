@@ -5,9 +5,9 @@ function capitalizePokemonName(name) {
 }
 
 function loadSpotlightItem() {
-    const spotlightItem = document.querySelector("#spotlight-item .item");
-    const item = createItem("../assets/masterball.svg", "", [250, 250]);
-    spotlightItem.parentNode.replaceChild(item, spotlightItem);
+    const spotlightItem = document.querySelector("#spotlight-item");
+    const item = createItem("../assets/masterball.svg", "", ["calc(250px - 10vmin)", "calc(250px - 10vmin)"]);
+    spotlightItem.appendChild(item);
 }
 
 function loadAdsItems(number_of_items = 3) {
