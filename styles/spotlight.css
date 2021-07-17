@@ -5,11 +5,15 @@
     justify-content: center;
     background-color: rgba(255, 239, 97, 0.1);
     padding: 2%;
-    margin: 10px;
+}
+
+#spotlight h1 {
+    font-size: calc(90% + 1vw);
 }
 
 #spotlight-item{
     display: flex;
     flex-flow: column wrap;
     align-items: center;
+    margin-right: 5vw;
 }
