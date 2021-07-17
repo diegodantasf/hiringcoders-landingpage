@@ -5,3 +5,7 @@
     margin: 25px 100px;
 }
 
+.item [description] {
+    font-size: larger;
+}
+
