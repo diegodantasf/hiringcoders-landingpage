@@ -11,7 +11,7 @@
 
 } */
 
-#newsletter form {
+#newsletter [form] {
     width: 80%;
     height: auto;
 }
@@ -42,4 +42,9 @@
 
 #newsletter [type=button]:active {
     transform: translateY(4px);
+}
+
+#newsletter [type=button]:disabled {
+    background-color: rgba(0, 255, 20, 1);
+    color:black;
 }
